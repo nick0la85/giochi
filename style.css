@@ -1,0 +1,35 @@
+body {
+    background-color: #272B30;
+}
+ .color{color:  #AAAAAA;}
+.navbar {
+    background-color: #32383E;
+}
+.card {
+    background-color: #32383E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera per effetto di sollevamento */
+    margin: 10px; /* Distanza tra le carte */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #AAAAAA;
+  
+}
+.custom-card {
+    width: 18rem; /* Puoi regolare questa dimensione secondo le tue esigenze */
+}
+
+
+
+.carousel-size{max-width: 800px; /* Imposta la larghezza massima del carosello */
+    margin: 0 auto; /* Centra il carosello */}
+
+    
+
+
+    .btn-game-container {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 10px; /* Aggiungi margine per distanziare il tasto dal bordo della card */
+    }
